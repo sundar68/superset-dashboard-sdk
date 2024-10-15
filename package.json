@@ -1,6 +1,6 @@
 {
-  "name": "superset-dashboard-sdk",
-  "version": "1.0.1",
+  "name": "superset-dashboard-embed",
+  "version": "1.0.0",
   "description": "Superset Dashboard visualization component with improved specs.",
   "main": "build/index.js",
   "private": false,
@@ -19,7 +19,7 @@
     "test:watch": "jest --watch",
     "prepublishOnly": "npm run build"
   },
-  "author": "Roberto Conte Rosito",
+  "author": "**",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.19.6",
@@ -43,6 +43,7 @@
     "jest": "^24.8.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.0",
+    "rison": "^0.1.1",
     "rollup": "^1.27.4",
     "rollup-plugin-copy": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
@@ -50,8 +51,7 @@
     "rollup-plugin-typescript2": "^0.27.0",
     "sass-loader": "^8.0.0",
     "ts-jest": "^24.0.2",
-    "typescript": "^3.9.10",
-    "rison": "^0.1.1"
+    "typescript": "^3.9.10"
   },
   "peerDependencies": {
     "react": ">=16.13.1",
@@ -62,6 +62,7 @@
     "buffer": "^6.0.3",
     "jwt-decode": "^3.1.2",
     "node-fetch": "^3.2.10",
-    "sass": "^1.55.0"
+    "sass": "^1.55.0",
+    "superset-dashboard-sdk": "^1.0.1"
   }
 }
